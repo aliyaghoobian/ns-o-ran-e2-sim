@@ -65,7 +65,7 @@ typedef struct InitiatingMessage {
 	struct InitiatingMessage__value {
 		InitiatingMessage__value_PR present;
 		union InitiatingMessage__value_u {
-			RICsubscriptionRequest_t	 RICsubscriptionRequest;
+			c	 RICsubscriptionRequest;
 			RICsubscriptionDeleteRequest_t	 RICsubscriptionDeleteRequest;
 			RICserviceUpdate_t	 RICserviceUpdate;
 			RICcontrolRequest_t	 RICcontrolRequest;
