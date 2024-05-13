@@ -237,7 +237,9 @@ void e2ap_handle_RICControlRequest(E2AP_PDU_t *pdu, int &socket_fd, E2Sim *e2sim
 
     if (func_exists) {
         LOG_D("Calling callback function");
+        LOG_I("Aliiii befor");
         cb(pdu);
+        LOG_I("Aliiii after");
     } else {
         LOG_E("Error: No RAN Function with this ID exists");
     }
